@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-menu-gradient {
+    background: linear-gradient(to rigth, #1460bc, #2498bc, #36a3dd, #4482c4);
+}
+
+.menu-item{
+    @apply hover:text-sky-200;
+}
